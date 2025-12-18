@@ -4,9 +4,10 @@ import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
     output: 'export',
-    basePath: '/next.js-1',
+    basePath: process.env.PAGES_BASE_PATH,
     // distDir: '/next.js-1',
-    // trailingSlash: true,
+    trailingSlash: true,
 };
 
 export default nextConfig;
+console.log('process.env.PAGES_BASE_PATH,', process.env.PAGES_BASE_PATH);
