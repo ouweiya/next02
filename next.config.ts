@@ -4,8 +4,9 @@ import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
     output: 'export',
+    // output: 'standalone',
 
-    basePath: '/next.js-1',
+    // basePath: '/next.js-1',
     // distDir: '/next.js-1',
     // trailingSlash: true,
 };
