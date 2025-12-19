@@ -12,7 +12,7 @@ export default function Home() {
         </p>
 
         <nav className="mt-10 grid gap-4 sm:grid-cols-2">
-          <Link
+          {/* <Link
             href="/blog"
             className="rounded-xl border border-black/[.08] bg-white px-5 py-4 transition-colors hover:bg-black/[.04] dark:border-white/[.145] dark:bg-black dark:hover:bg-[#1a1a1a]"
           >
@@ -20,7 +20,7 @@ export default function Home() {
             <div className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
               /blog
             </div>
-          </Link>
+          </Link> */}
 
           <Link
             href="/counter"
