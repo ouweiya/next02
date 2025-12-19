@@ -4,10 +4,10 @@ import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
     output: 'export',
-    // basePath: process.env.PAGES_BASE_PATH,
-    // assetPrefix: process.env.PAGES_BASE_PATH,
-    basePath: '/next-01',
-    assetPrefix: '/next-01',
+    basePath: process.env.PAGES_BASE_PATH,
+    assetPrefix: process.env.PAGES_BASE_PATH,
+    // basePath: '/next-01',
+    // assetPrefix: '/next-01',
     // distDir: '/next.js-1',
     trailingSlash: true,
 };
