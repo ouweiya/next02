@@ -1,6 +1,7 @@
 {
     "name": "next.js-1",
     "version": "0.1.0",
+    "homepage": "https://ouweiya.github.io/next-a",
     "private": true,
     "scripts": {
         "dev": "next dev -p 5173",
