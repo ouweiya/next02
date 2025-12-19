@@ -5,7 +5,7 @@ export default function Home() {
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <main className="w-full max-w-3xl px-6 py-24 sm:px-10">
         <h1 className="text-3xl font-semibold tracking-tight text-black dark:text-zinc-50">
-          简单演示主页-12345678-999-100
+          简单演示主页-123
         </h1>
         <p className="mt-3 text-zinc-600 dark:text-zinc-400">
           这是一个最小示例：一个主页，两个其他页面。点击下面链接跳转。
