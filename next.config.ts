@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
     basePath: '/next-01',
     assetPrefix: '/next-01',
     // distDir: '/next.js-1',
-    // trailingSlash: true,
+    trailingSlash: true,
 };
 
 export default nextConfig;
