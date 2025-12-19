@@ -1,15 +1,15 @@
 import type { NextConfig } from 'next';
 
-// const repo = 'next.js-1';
-
 const nextConfig: NextConfig = {
     output: 'export',
+    trailingSlash: true,
+
+    // reactCompiler: true,
+    reactStrictMode: true,
+
     basePath: process.env.PAGES_BASE_PATH,
     assetPrefix: process.env.PAGES_BASE_PATH,
-    // basePath: '/next-01',
-    // assetPrefix: '/next-01',
-    // distDir: '/next.js-1',
-    trailingSlash: true,
+    images: { unoptimized: true },
 };
 
 export default nextConfig;
